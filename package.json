@@ -1,0 +1,36 @@
+{
+  "name": "intro-reactjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "webpack && node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline --history-api-fallback"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code-Immersives/intro-reactjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Code-Immersives/intro-reactjs/issues"
+  },
+  "homepage": "https://github.com/Code-Immersives/intro-reactjs#readme",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}
